@@ -36,7 +36,7 @@ function App() {
 };
 
   const placeOrder = async () => {
-    await axios.post("http://127.0.0.1:5000/order", {
+    await axios.post("http://13.200.215.142:5000/order", {
       name,
       phone,
       items: cart
